@@ -1,7 +1,7 @@
 import { BotConfig } from './structures/types'; 
 
 export const config: BotConfig = {
-    groupId: 0,
+    groupId: 5999767,
     slashCommands: true,
     legacyCommands: {
         enabled: true,
@@ -17,18 +17,18 @@ export const config: BotConfig = {
         admin: [''],
     },
     logChannels: {
-        actions: '',
+        actions: '1021794184618856498',
         shout: '',
     },
     database: {
-        enabled: false,
+        enabled: true,
         type: 'mongodb',
     },
     api: false,
     maximumRank: 255,
-    verificationChecks: false,
+    verificationChecks: true,
     firedRank: 1,
-    suspendedRank: 1,
+    suspendedRank: 3,
     recordManualActions: true,
     memberCount: {
         enabled: false,
@@ -49,16 +49,16 @@ export const config: BotConfig = {
         ],
     },
     antiAbuse: {
-        enabled: false,
+        enabled: true,
         clearDuration: 1 * 60,
-        threshold: 5,
-        demotionRank: 1,
+        threshold: 6,
+        demotionRank: 3,
         bypassRoleId: '',
     },
     activity: {
-        enabled: false,
+        enabled: true,
         type: 'WATCHING',
-        value: 'for commands.',
+        value: 'SpeedKarting SHR',
     },
     status: 'online',
     deleteWallURLs: false,
